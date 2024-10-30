@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "pm-blocks/column",
+  "version": "0.1.0",
+  "title": "PM Column",
+  "category": "design",
+  "icon": "page",
+  "description": "A single column within a PM Section block.",
+  "supports": {
+    "anchor": true,
+    "html": false
+  },
+  "textdomain": "pm-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "width": {
+      "type": "string",
+      "default": ""
+    },
+    "width__tablet": {
+      "type": "string",
+      "default": ""
+    },
+    "width__mobile": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
